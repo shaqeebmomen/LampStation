@@ -37,6 +37,14 @@ export default class {
                 vid: '2341',
                 pid: '8037',
                 resetsOnPortOpen: false
+            },
+            // Seeeduino XIAO
+            {
+                name: 'Seeeduino XIAO',
+                isProduction: true,
+                vid: '2886',
+                pid: '802F',
+                resetsOnPortOpen: false
             }
         ];
         this.connectedDevice = undefined;
